@@ -14,4 +14,4 @@ RUN curl -L https://github.com/pocketbase/pocketbase/releases/download/v0.22.14/
 
 EXPOSE 10000
 
-CMD ["./pocketbase", "serve", "--http=0.0.0.0:10000"]
+CMD ["./pocketbase", "serve", "--http=0.0.0.0:10000", "--dir=/pb_data"]
